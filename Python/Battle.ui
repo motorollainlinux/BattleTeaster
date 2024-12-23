@@ -17,7 +17,7 @@
    </sizepolicy>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>BATTLE TEASTER</string>
   </property>
   <widget class="QWidget" name="verticalLayoutWidget">
    <property name="geometry">
@@ -1984,7 +1984,7 @@
        <number>0</number>
       </property>
       <item>
-       <widget class="QPushButton" name="pushButton_2">
+       <widget class="QPushButton" name="pushButton1">
         <property name="maximumSize">
          <size>
           <width>100</width>
@@ -2110,7 +2110,7 @@
      </layout>
     </item>
     <item alignment="Qt::AlignHCenter">
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="pushButton2">
       <property name="maximumSize">
        <size>
         <width>81</width>

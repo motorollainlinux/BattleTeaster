@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>BATTLE TEASTER</string>
   </property>
   <widget class="QWidget" name="verticalLayoutWidget">
    <property name="geometry">
@@ -198,6 +198,12 @@
     </item>
     <item alignment="Qt::AlignHCenter">
      <widget class="QPushButton" name="pushButton">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>39</height>
+       </size>
+      </property>
       <property name="maximumSize">
        <size>
         <width>58</width>

@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>BATTLE TEASTER</string>
   </property>
   <widget class="QWidget" name="verticalLayoutWidget">
    <property name="geometry">
@@ -57,7 +57,13 @@
        <enum>QLayout::SetNoConstraint</enum>
       </property>
       <item>
-       <widget class="QPushButton" name="pushButton_3">
+       <widget class="QPushButton" name="pushButton1">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>39</height>
+         </size>
+        </property>
         <property name="maximumSize">
          <size>
           <width>80</width>
@@ -70,7 +76,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_2">
+       <widget class="QPushButton" name="pushButton2">
         <property name="maximumSize">
          <size>
           <width>86</width>
@@ -111,7 +117,7 @@
          <number>4</number>
         </property>
         <item>
-         <widget class="QPushButton" name="pushButton_5">
+         <widget class="QPushButton" name="pushButtonM1">
           <property name="maximumSize">
            <size>
             <width>20</width>
@@ -137,7 +143,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_4">
+         <widget class="QPushButton" name="pushButtonP1">
           <property name="maximumSize">
            <size>
             <width>20</width>
@@ -180,7 +186,7 @@
          <number>4</number>
         </property>
         <item>
-         <widget class="QPushButton" name="pushButton_6">
+         <widget class="QPushButton" name="pushButtonM2">
           <property name="maximumSize">
            <size>
             <width>20</width>
@@ -206,7 +212,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_7">
+         <widget class="QPushButton" name="pushButtonP2">
           <property name="maximumSize">
            <size>
             <width>20</width>
@@ -291,7 +297,7 @@
          <number>4</number>
         </property>
         <item>
-         <widget class="QPushButton" name="pushButton_8">
+         <widget class="QPushButton" name="pushButtonM3">
           <property name="maximumSize">
            <size>
             <width>20</width>
@@ -317,7 +323,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_9">
+         <widget class="QPushButton" name="pushButtonP3">
           <property name="maximumSize">
            <size>
             <width>20</width>
@@ -334,7 +340,7 @@
      </layout>
     </item>
     <item alignment="Qt::AlignHCenter">
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="pushButton3">
       <property name="minimumSize">
        <size>
         <width>128</width>
@@ -353,7 +359,7 @@
      </widget>
     </item>
     <item alignment="Qt::AlignHCenter">
-     <widget class="QPushButton" name="pushButton_10">
+     <widget class="QPushButton" name="pushButton4">
       <property name="minimumSize">
        <size>
         <width>0</width>
