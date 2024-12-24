@@ -4,7 +4,7 @@ Sizes = [[295, 369], [310, 330], [338, 330], [464, 579], [385, 295], [549, 744]]
 class BattleTeaster(QtWidgets.QMainWindow):
     def __init__(self, parent = None):
         super().__init__(parent)
-        uic.loadUi("./Python/Menu.ui", self)
+        uic.loadUi("./Assets/UI/Menu.ui", self)
         self.pushButton1.clicked.connect(self.ChangeToBotBattleSettings)
         self.pushButton2.clicked.connect(self.ChangeToPlayerBattleSettings)
         self.pushButton3.clicked.connect(self.ChangeToSettings)
@@ -12,32 +12,32 @@ class BattleTeaster(QtWidgets.QMainWindow):
         self.setMinimumSize(0, 0)
         self.resize(Sizes[0][0], Sizes[0][1])
     def ChangeToBotBattleSettings(self) -> None:
-        uic.loadUi("./Python/BS-B.ui", self)
+        uic.loadUi("./Assets/UI/BS-B.ui", self)
         self.pushButton4.clicked.connect(self.ChangeToMenu)
         self.setMinimumSize(0, 0)
         self.resize(Sizes[1][0], Sizes[1][1])
     def ChangeToPlayerBattleSettings(self) -> None:
-        uic.loadUi("./Python/BS-P.ui", self)
+        uic.loadUi("./Assets/UI/BS-P.ui", self)
         self.pushButton4.clicked.connect(self.ChangeToMenu)
         self.setMinimumSize(0, 0)
         self.resize(Sizes[2][0], Sizes[2][1])
     def ChangeToSettings(self) -> None:
-        uic.loadUi("./Python/Settings.ui", self)
+        uic.loadUi("./Assets/UI/Settings.ui", self)
         self.pushButton.clicked.connect(self.ChangeToMenu)
         self.setMinimumSize(0, 0)
         self.resize(Sizes[4][0], Sizes[4][1])
     def ChangeToBattle(self) -> None:
-        uic.loadUi("./Python/Battle.ui", self)
+        uic.loadUi("./Assets/UI/Battle.ui", self)
         self.pushButton2.clicked.connect(self.ChangeToMenu)
         self.setMinimumSize(0, 0)
         self.resize(Sizes[3][0], Sizes[3][1])
     def ChangeToLeaders(self) -> None:
-        uic.loadUi("./Python/Leaders.ui", self)
+        uic.loadUi("./Assets/UI/Leaders.ui", self)
         self.pushButton1.clicked.connect(self.ChangeToMenu)
         self.setMinimumSize(0, 0)
         self.resize(Sizes[5][0], Sizes[5][1])
     def ChangeToMenu(self) -> None:
-        uic.loadUi("./Python/Menu.ui", self)
+        uic.loadUi("./Assets/UI/Menu.ui", self)
         self.pushButton1.clicked.connect(self.ChangeToBotBattleSettings)
         self.pushButton2.clicked.connect(self.ChangeToPlayerBattleSettings)
         self.pushButton3.clicked.connect(self.ChangeToSettings)
