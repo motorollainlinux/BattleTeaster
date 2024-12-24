@@ -5,6 +5,7 @@ class BattleTeaster(QtWidgets.QMainWindow):
     def __init__(self, parent = None):
         super().__init__(parent)
         uic.loadUi("./Assets/UI/Menu.ui", self)
+        self.widget.setStyleSheet("background: url(\"./Assets/img/LOGO.png\") no-repet auto;")
         self.pushButton1.clicked.connect(self.ChangeToBotBattleSettings)
         self.pushButton2.clicked.connect(self.ChangeToPlayerBattleSettings)
         self.pushButton3.clicked.connect(self.ChangeToSettings)
@@ -13,6 +14,12 @@ class BattleTeaster(QtWidgets.QMainWindow):
         self.resize(Sizes[0][0], Sizes[0][1])
     def ChangeToBotBattleSettings(self) -> None:
         uic.loadUi("./Assets/UI/BS-B.ui", self)
+        self.pushButtonM1.setStyleSheet("background: url(\"./Assets/img/minuse 1 2 1.png\") no-repet auto;")
+        self.pushButtonM2.setStyleSheet("background: url(\"./Assets/img/minuse 1 2 1.png\") no-repet auto;")
+        self.pushButtonM3.setStyleSheet("background: url(\"./Assets/img/minuse 1 2 1.png\") no-repet auto;")
+        self.pushButtonP1.setStyleSheet("background: url(\"./Assets/img/pluse 1 2 1.png\") no-repet auto;")
+        self.pushButtonP2.setStyleSheet("background: url(\"./Assets/img/pluse 1 2 1.png\") no-repet auto;")
+        self.pushButtonP3.setStyleSheet("background: url(\"./Assets/img/pluse 1 2 1.png\") no-repet auto;")
         self.pushButton4.clicked.connect(self.ChangeToMenu)
         self.setMinimumSize(0, 0)
         self.resize(Sizes[1][0], Sizes[1][1])
@@ -38,6 +45,7 @@ class BattleTeaster(QtWidgets.QMainWindow):
         self.resize(Sizes[5][0], Sizes[5][1])
     def ChangeToMenu(self) -> None:
         uic.loadUi("./Assets/UI/Menu.ui", self)
+        self.widget.setStyleSheet("background: url(\"./Assets/img/LOGO.png\") no-repet auto;")
         self.pushButton1.clicked.connect(self.ChangeToBotBattleSettings)
         self.pushButton2.clicked.connect(self.ChangeToPlayerBattleSettings)
         self.pushButton3.clicked.connect(self.ChangeToSettings)
